@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    tablero.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    tablero.h
 
 FORMS    += mainwindow.ui
