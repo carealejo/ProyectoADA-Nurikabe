@@ -21,4 +21,7 @@ void MainWindow::on_actionOpen_file_triggered()
 {
     QString filename = QFileDialog::getOpenFileName(this,"Nurikabe-Open","/home/");
     t->gentablero(filename.toStdString());
+
 }
+
+

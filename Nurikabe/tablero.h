@@ -11,6 +11,7 @@ using namespace std;
 class tablero
 {
 private:
+     int n,m;
      vector< vector<int> > M;
      fstream file;
 public:
